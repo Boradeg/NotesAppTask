@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "272644784825",
+    "project_id": "notesapptask-cc8e6",
+    "storage_bucket": "notesapptask-cc8e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272644784825:android:2341354733a2ec79541168",
+        "android_client_info": {
+          "package_name": "com.example.notesapptask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHEQme6qcjNZZh8rQKAbYAlGDkngQUSQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

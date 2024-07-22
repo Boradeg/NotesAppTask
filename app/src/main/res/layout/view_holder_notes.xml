@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/id_card_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"
+        android:background="@drawable/bg_card_notes"
+        android:elevation="2dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/id_notes_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/id_edit"
+            android:text="Reading book"
+            android:textStyle="bold"
+
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/id_notes_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_notes_title"
+            android:textSize="12sp"
+
+            android:layout_marginTop="15dp"
+            android:text="I want to read book before sleeping "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_notes_desc"
+            android:textSize="12sp"
+            android:layout_marginTop="10dp"
+            android:text="Motivation | Goal"
+           />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_notes_desc"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:text="29/04/2024" />
+        <ImageView
+            android:id="@+id/id_edit"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/edit_2"
+            android:layout_marginEnd="10dp"
+            android:layout_toLeftOf="@id/id_delete"
+            />
+        <ImageView
+            android:id="@+id/id_delete"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/delete"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
