@@ -12,8 +12,8 @@ import androidx.appcompat.app.AlertDialog
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.Adapter.NotesAdapter
-import com.example.Adapter.OnItemClickListener
+import com.example.notesapptask.Adapter.NotesAdapter
+import com.example.notesapptask.Adapter.OnItemClickListener
 import com.example.notesapptask.Database.Note
 import com.example.notesapptask.R
 import com.example.notesapptask.ViewModel.MainViewModel

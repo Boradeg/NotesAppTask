@@ -1,4 +1,4 @@
-package com.example.Adapter
+package com.example.notesapptask.Adapter
 
 import android.view.View
 import android.view.ViewGroup
